@@ -22,9 +22,10 @@
       }
 
       header {
-        align-items: center;
+        align-items: flex-start;
         display: flex;
-        gap: 18px;
+        flex-direction: column;
+        gap: 12px;
         margin-bottom: 28px;
       }
 
@@ -33,9 +34,10 @@
         width: 138px;
       }
 
-      h1 {
-        margin: 0 0 8px;
-        font-size: 2rem;
+      .subtitle {
+        font-size: 1.35rem;
+        font-weight: 650;
+        margin-bottom: 4px;
       }
 
       h2 {
@@ -67,10 +69,8 @@
     <main>
       <header>
         <img src="./assets/itodev-logo.svg" alt="iToDEV">
-        <div>
-          <h1>AI links, shared with love from iToDEV 💛</h1>
-          <p>A small shelf of useful prompts and skills. Scan, open, use, remix.</p>
-        </div>
+        <p class="subtitle">Shared with love from iToDEV 💛</p>
+        <p>A small shelf of useful prompts and skills. Scan, open, use, remix.</p>
       </header>
 
       <h2>From One Sentence to Context</h2>
